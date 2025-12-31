@@ -1,0 +1,33 @@
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+#game-container {
+  position: relative;
+}
+
+#pong {
+  background: #111;
+  display: block;
+  border: 2px solid #444;
+  box-shadow: 0 0 20px #000;
+}
+
+#scoreboard {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  letter-spacing: 15px;
+  color: #fff;
+  text-shadow: 0 2px 8px #000;
+  user-select: none;
+}
